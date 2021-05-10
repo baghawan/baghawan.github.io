@@ -4,7 +4,6 @@
             baghawan
         </h1>
 
-        <client-only>
         <swiper class="swiper h-full" :options="swiperOption">
             <div class="parallax-bg absolute" slot="parallax-bg" data-swiper-parallax="-13%">Latest Works • Latest Works • Latest Works</div>
             <swiper-slide v-for="work of works" :key="work.slug" class="flex items-center justify-center">
@@ -28,7 +27,6 @@
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
-        </client-only>
     </main>
 </template>
 
