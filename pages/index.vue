@@ -6,7 +6,7 @@
 
         <client-only>
         <swiper class="swiper h-full" :options="swiperOption">
-            <div class="parallax-bg absolute" slot="parallax-bg" data-swiper-parallax="-13%">Latest Works • Latest Works</div>
+            <div class="parallax-bg absolute" slot="parallax-bg" data-swiper-parallax="-13%">Latest Works • Latest Works • Latest Works</div>
             <swiper-slide v-for="work of works" :key="work.slug" class="flex items-center justify-center">
                 <div class="work--wrapper text-center w-full px-4">
                     <div class="thumb--wrapper" v-if="work.cover_video != null">
