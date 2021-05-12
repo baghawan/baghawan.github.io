@@ -20,7 +20,7 @@
     "@nuxtjs/color-mode": "^2.0.3",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "node-sass": "^5.0.0",
-    "swiper": "^5.4.5",
+    "swiper": "^6.5.1",
     "tailwindcss-dark-mode": "^1.1.7",
     "vue-awesome-swiper": "^4.1.1"
   }
