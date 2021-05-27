@@ -5,7 +5,7 @@ export default {
     target: 'static',
     router: {
         // base: dev ? '/' : '/baghawan.github.io/'
-        base: '/baghawan.github.io/'
+        base: '/'
     },
     // env: {
     //     baseUrl: 'https://baghawan.github.io'
