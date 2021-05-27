@@ -4,7 +4,7 @@ export default {
     mode: "universal",
     target: 'static',
     router: {
-        base: dev ? '/' : '/baghawan.github.io/'
+        base: '/baghawan.github.io/'
     },
     env: {
         baseUrl: dev ? 'http://localhost:3000' : 'https://baghawan.github.io'
