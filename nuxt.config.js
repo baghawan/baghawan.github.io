@@ -7,9 +7,9 @@ export default {
         // base: dev ? '/' : '/baghawan.github.io/'
         base: '/'
     },
-    // env: {
-    //     baseUrl: 'https://baghawan.github.io'
-    // },
+    env: {
+        baseUrl: 'https://baghawan.github.io'
+    },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         titleTemplate: 'Baghawan | %s',

@@ -19,7 +19,6 @@
                         <img :src="work.cover_image" :alt="'Gambar thumbnail' + work.title">
                     </figure>
                     <div class="work-title absolute">
-                        <!-- <h2 class="text-4xl xs:text-5xl md:text-6xl font-bold mb-12">{{ work.title }}</h2> -->
                         <h2 class="text-xl md:text-4xl font-bold inline-block">{{ work.title }}</h2>
                         
                     </div>
@@ -57,9 +56,9 @@ export default {
             swiperOption: {
                 speed: 1000,
                 allowTouchMove: false,
-                slidesPerView: 1.35,
+                slidesPerView: 1.25,
                 centeredSlides: true,
-                spaceBetween: 20,
+                spaceBetween: -10,
                 parallax: true,
                 autoplay: {
                     delay: 4000,
